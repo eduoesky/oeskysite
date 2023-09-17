@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OesKy</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script defer src="../../pou/visita.js"></script>
+    <link rel="icon" type="image/x-icon" href="../../vis.ico">
+</head>
+<body>
+    <div class="divi"></div>
+    <header>
+        OesKy
+    </header>
+    <div class="divi"></div>
+    <div class="acesso-visita">
+        <a href="info-visit.html"><button>INFO</button></a>
+    </div>
+    <form class="formvisit" action="https://formsubmit.co/oeskky@Gmail.com" method="POST">
+        <div class="div-mail">
+            <div class="div-label-mail-visita"><label for="mail">Your email (optional):</label></div>
+            <input class="nm" type="email" name="mail" placeholder="Contact email">
+        </div>
+        <div class="div-nick">
+            <div class="div-label-nick-en"><label for="nick">Nickname Pou:</label></div>
+            <input class="nm" type="name" name="nick" placeholder="Your Pou nickname" required>
+        </div>
+        <div class="div-cmsg">
+            <input type="checkbox" name, id="cmsg" class="mensagem">
+            <label for="cmsg">With message</label>
+            <div id="opcoes">
+                <label for="mensagens">Select a message</label>
+                <div>
+                    <select name="mensagens" id="mensagens">
+                        <option value="oi">Hello, #! ^_^</option>
+                        <option value="tdbem">How are you?</option>
+                        <option value="tobem">I'm fine, thanks!</option>
+                        <option value="amavel">You're cute!</option>
+                        <option value="boabola">Nice ball!</option>
+                        <option value="conq">Nice achievements!</option>
+                        <option value="casa">Nice house!</option>
+                        <option value="roupa">Your outfit is nice!</option>
+                        <option value="gst">I like you! ^_^</option>
+                        <option value="jardim">Nice garden!</option>
+                        <option value="carro">Nice car!</option>
+                        <option value="jogarjuntos">
+                            Let's to play together!
+                        </option>
+                        <option value="parabens">Congratulations!</option>
+                        <option value="obg">Thank you!</option>
+                        <option value="obglike">Thanks for like me!</option>
+                        <option value="amigos">Let's to be friends!</option>
+                        <option value="bdia">Have a good day!</option>
+                        <option value="bnoite">Good night!</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="div-smsg">
+            <input type="checkbox" name, id="smsg" class="smsg">
+            <label for="semensagem">Without message</label>
+        </div>
+        <button class="visit" id="botao" type="submit" disabled>VISIT ME 🏠</button>
+            <input type="hidden" name="_next" value="https://oesky.com/idiomas/en/visitaconcluida">
+            <input type="hidden" name="_captcha" value="false">
+    </form>
+    <div class="div-voltar-foto" id="div-voltar-visit">
+        <a href="pou.html">
+            <img src="../../img/voltar.png" height="180px">
+        </a>
+    </div>
+</body>
+</html>

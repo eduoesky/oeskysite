@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OesKy</title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="visita.js"></script>
+    <link rel="icon" type="image/x-icon" href="../vis.ico">
+</head>
+<body>
+    <div class="divi"></div>
+    <header>
+        OesKy
+    </header>
+    <div class="divi"></div>
+    <div class="acesso-visita">
+        <a href="../secundários/info-visita.html"><button>INFO</button></a>
+    </div>
+    <form class="formvisit" action="https://formsubmit.co/oeskky@Gmail.com" method="POST">
+        <div class="div-mail">
+            <div class="div-label-mail-visita"><label for="mail">Seu email (opcional):</label></div>
+            <input class="nm" type="email" name="mail" placeholder="Email de contato">
+        </div>
+        <div class="div-nick">
+            <div class="div-label-nick"><label for="nick">Apelido 'Pou':</label></div>
+            <input class="nm" type="name" name="nick" placeholder="Nome do seu Pou" required>
+        </div>
+        <div class="div-cmsg">
+            <input type="checkbox" name, id="cmsg" class="mensagem">
+            <label for="cmsg">Com mensagem</label>
+            <div id="opcoes">
+                <label for="mensagens">Escolha uma mensagem</label>
+                <div>
+                    <select name="mensagens" id="mensagens">
+                        <option value="oi">Oi, #! ^_^</option>
+                        <option value="tdbem">Tudo bem?</option>
+                        <option value="tobem">Estou bem, obrigado!</option>
+                        <option value="amavel">Muito amável!</option>
+                        <option value="boabola">Boa bola!</option>
+                        <option value="conq">Boas conquistas!</option>
+                        <option value="casa">Que casa legal!</option>
+                        <option value="roupa">Que roupa bacana!</option>
+                        <option value="gst">Gosto de você!</option>
+                        <option value="jardim">Belo jardim!</option>
+                        <option value="carro">Que carro legal!</option>
+                        <option value="parabens">Parabéns!</option>
+                        <option value="obg">Obrigado!</option>
+                        <option value="obglike">Obrigado por gostar de mim!</option>
+                        <option value="jogarjuntos">Vamos jogar juntos!</option>
+                        <option value="amigos">Vamos ser amigos?</option>
+                        <option value="bdia">Tenha um bom dia!</option>
+                        <option value="bnoite">Boa noite! Zzz</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="div-smsg">
+            <input type="checkbox" name, id="smsg" class="smsg">
+            <label for="semensagem">Sem mensagem</label>
+        </div>
+        <button class="visit" id="botao" type="submit" disabled>ME VISITE 🏠</button>
+            <input type="hidden" name="_next" value="https://oesky.com/secundários/visitaconcluida">
+            <input type="hidden" name="_captcha" value="false">
+    </form>
+    <div class="div-voltar-foto" id="div-voltar-visit">
+        <a href="../pou.html">
+            <img src="../img/voltar.png" height="180px">
+        </a>
+    </div>
+</body>
+</html>

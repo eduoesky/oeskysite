@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OesKy</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script defer src="../../pou/visita.js"></script>
+    <link rel="icon" type="image/x-icon" href="../../vis.ico">
+</head>
+<body>
+    <div class="divi"></div>
+    <header>
+        OesKy
+    </header>
+    <div class="divi"></div>
+    <div class="acesso-visita">
+        <a href="info-besuchen.html"><button>INFO</button></a>
+    </div>
+    <form class="formvisit" action="https://formsubmit.co/oeskky@Gmail.com" method="POST">
+        <div class="div-mail">
+            <div class="div-label-mail-visita-al"><label for="mail">Deine email (optional):</label></div>
+            <input class="nm" type="email" name="mail" placeholder="Kontakt email">
+        </div>
+        <div class="div-nick">
+            <div class="div-label-nick-al"><label for="nick">Nachname Pou:</label></div>
+            <input class="nm" type="name" name="nick" placeholder="Der Name Ihres Pou" required>
+        </div>
+        <div class="div-cmsg">
+            <input type="checkbox" name, id="cmsg" class="mensagem">
+            <label for="cmsg">Mit nachricht</label>
+            <div id="opcoes">
+                <label for="mensagens">Wählen sie die n. aus:</label>
+                <div>
+                    <select name="mensagens" id="mensagens">
+                        <option value="oi">Hallo, #! ^_^</option>
+                        <option value="tdbem">Wie geht es dir?</option>
+                        <option value="tobem">Mir geht es gut, danke!</option>
+                        <option value="amavel">Du bist süß!</option>
+                        <option value="boabola">Schöner ball!</option>
+                        <option value="conq">Schöne erfolge!</option>
+                        <option value="casa">Nettes haus!</option>
+                        <option value="roupa">Dein outfit ist schön!</option>
+                        <option value="gst">Wie du! ^_^</option>
+                        <option value="jardim">Schöner garten!</option>
+                        <oNide Garten!ption value="carro">Nettes auto!</option>
+                        <option value="parabens">Glückwunsch!</option>
+                        <option value="obg">Danke schön!</option>
+                        <option value="obglike">Danke, dass du mich magst!</option>
+                        <option value="amigos">Lass uns freunde sein!</option>
+                        <option value="jogarjuntos">Lass uns zusammen spielen!</option>
+                        <option value="bdia">Haben Sie einen guten Tag!</option>
+                        <option value="bnoite">Gute nacht!</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="div-smsg">
+            <input type="checkbox" name, id="smsg" class="smsg">
+            <label for="semensagem">Keine nachricht</label>
+        </div>
+        <button class="visit" id="botao" type="submit" disabled>BESUCH MICH 🏠</button>
+            <input type="hidden" name="_next" value="https://oesky.com/idiomas/al/visitaconcluida">
+            <input type="hidden" name="_captcha" value="false">
+    </form>
+    <div class="div-voltar-foto" id="div-voltar-visit">
+        <a href="pou.html">
+            <img src="../../img/voltar.png" height="180px">
+        </a>
+    </div>
+</body>
+</html>

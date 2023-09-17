@@ -1,0 +1,1264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'century';
+}
+
+.divi {
+    background-color: white;
+    padding: 2px;
+}
+
+@font-face {
+    font-family: "century";
+    src: url(arquivo/century-gothic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "pou";
+    src: url(arquivo/pou.ttf) format('truetype');
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: pou;
+    color: #fff;
+    background-color: #00bbffaa;
+    letter-spacing: -4px;
+    text-shadow: 2px 2px 2px #000, -2px -2px 2px #000, -2px 2px 2px #000, 2px -2px 2px #000;
+}
+
+.acesso {
+    background-color: #40e0d0aa;
+    padding: 35px;
+}
+
+.info-like, .acesso-visita {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.389);
+}
+
+.acesso-visita {
+    background-color: #40e0d0aa;
+}
+
+.menu-index {
+    position: relative;
+    top: 45px;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+}
+
+.menu-index img {
+    transition: all .3s;
+}
+
+.div-label-mail-mensagem-al {
+    margin-left: -105px;
+}
+
+.div-mensagem-al {
+    margin-left: -90px;
+}
+
+.no-acesso img {
+    transition: all .3s;
+}
+
+.no-acesso img:hover {
+    transition: all .3s;
+    transform: scale(1.2);
+}
+
+.menu-index img:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.cabeçalho {
+    background-color: #40e0d0aa;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #00293c 1px 1px 3px, #00293c -1px 1px 3px, #00293c 1px -1px 3px, #00293c -1px -1px 3px;
+    color: #fff;
+}
+
+.no-acesso {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url(img/fundopc.png);
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #00293c;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00bbff;
+    color: white;
+}
+
+.botoes-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 15px;
+}
+
+.botaoindex-s {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.botaoindex-p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.botaoindex-r {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.btn-like:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.btn-visita:hover {
+    background-color: burlywood;
+    color: #000;
+}
+
+.btn-sug:hover {
+    background-color: #000;
+}
+
+details {
+    cursor: pointer;
+}
+
+summary:hover {
+    color: white;
+}
+
+summary {
+    color: rgb(23, 90, 129);
+}
+
+.div1, .div2, .div-voltar-foto, .div-voltar-foto-rd, .divvlt, .div-voltar-foto-obglk, .div-voltar {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    filter: drop-shadow(0 0 13px #00bbff);
+    transition: all .3s;
+}
+
+.div-sec {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    transition: all .3s;
+    filter: drop-shadow(0 0 13px #00bbff);
+}
+
+.div2, .divvlt {
+    top: 20px;
+}
+
+.div1:hover, .div2:hover, .div-voltar-foto:hover, .divvlt:hover, .div-voltar-foto-rd:hover, .div-voltar-foto-obglk:hover, .div-voltar:hover, .div-sec:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.div-voltar-foto-obglk {
+    top: 40px;
+}
+
+.div-voltar {
+    top: 80px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-texto {
+    background-color: #40e0d0aa;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 30px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.p-sobremim {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div-det {
+    background-color: #ffffffaa;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.div-det details summary:hover {
+    color: #000;
+    background-color: #40e0d0aa;
+}
+
+.nm, .em {
+    background-color: #00bbff;
+    padding-right: 60px;
+}
+
+.nm::placeholder, .em::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.div-email {
+    position: relative;
+    top: 7px;
+}
+
+.label-nome {
+    position: relative;
+    top: -6px;
+    margin-left: 68px
+}
+
+.label-mail {
+    position: relative;
+    top: 8px;
+}
+
+.input-mail {
+    position: relative;
+    top: 13px;
+}
+
+.p1 {
+    position: relative;
+    top: 10px;
+}
+
+.checkboxes-fotos {
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2 {
+    position: relative;
+    top: 30px;
+}
+
+.opcoes-cx {
+    position: relative;
+    top: 33px;
+}
+
+.detalhes-foto {
+    position: relative;
+    top: 40px;
+}
+
+.div-voltar-foto {
+    top: 10px;
+}
+
+form, .formvisit, .form-server, .form-info-like, .form-revisar-like {
+    text-align: center;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    top: 25px;
+    padding-bottom: 60px;
+    border-radius: 50px;
+}
+
+.form-revisar-like {
+    background-color: #00aaff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-revisar-like input {
+    background-color: white;
+    border: none;
+}
+
+.form-revisar-like input::placeholder {
+    color: #000;
+}
+
+.form-info-like, .form-info-visita, .form-info-sec, .form-info-priv, .form-info-visita-pl, .form-info-like-pl, .form-priv-pl, .form-erro, .form-info-like-es, .form-info-visita-es, .form-info-like-en, .form-info-priv-en, .form-info-like-al, .form-info-visita-al, .form-info-priv-al {
+    height: 390px;
+    padding-top: 10px;
+    text-align: justify;
+    border-radius: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: 0;
+    background-color: #ffffffbb;
+}
+
+.form-info-visita-pl {
+    height: 370px;
+}
+
+.form-info-sec {
+    height: 1020px;
+    background-color: white;
+}
+
+.form-info-sec p, .form-info-priv p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.form-info-sec p a:hover {
+    color: green;
+}
+
+.form-info-visita {
+    height: 340px;
+}
+
+.formvisit {
+    padding-bottom: 80px;
+}
+
+.form-server {
+    position: relative;
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.form-server .p-1 {
+    margin-left: -50%;
+}
+
+.form-server .p-2 {
+    position: relative;
+    top: -19px;
+    margin-left: 50%;
+}
+
+.form-server .p-3 {
+    margin-left: -32%;
+    position: relative;
+    top: -10px;
+}
+
+.form-server input {
+    border: none;
+    width: 120px;
+    margin-left: 200px;
+    position: relative;
+    top: -29px;
+}
+
+.form-server .p-4 {
+    margin-left: -70%;
+    position: relative;
+    top: -20px;
+}
+
+.form-server .p-5 {
+    position: relative;
+    top: -46px;
+    margin-right: -7em;
+}
+
+.form-server img {
+    position: relative;
+    top: -66px;
+    margin-left: 230px;
+}
+
+.form-server .p-6 {
+    position: relative;
+    top: -63px;
+    margin-left: -150px;
+}
+
+.form-server .inpul {
+    position: relative;
+    top: -82px;
+    margin-left: 149px;
+    width: 140px;
+}
+
+.online, .off {
+    background-color: #00ce00;
+    display: flex;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: -32px;
+    margin-left: 85px;
+}
+
+.online strong, .off strong {
+    position: relative;
+    top: -7px;
+    margin-left: 10px;
+}
+
+.off {
+    background-color: #cfcfcf;
+}
+
+.online, .online strong {
+    display: none;
+}
+
+.off, .offstrong {
+    display: block;
+}
+
+.div-mail {
+    position: relative;
+    top: 20px;
+}
+
+.div-nick {
+    position: relative;
+    top: 30px;
+}
+
+.div-label-nick {
+    margin-left: -98px;
+}
+
+.div-label-msg {
+    margin-left: -77px;
+}
+
+.div-label-mail-msg {
+    margin-left: -122px ;
+}
+
+.env, .visita, .env-erro {
+    position: relative;
+    top: 45px;
+    background-color: yellow;
+}
+
+.env-erro {
+    background-color: red;
+    color: white;
+}
+
+.env-erro:hover {
+    background-color: orange;
+}
+
+.visita {
+    background-color: #eac391;
+}
+
+.env:hover {
+    background-color: white;
+    filter: drop-shadow(yellow 0 0 8px);
+    color: black;
+    text-shadow: yellow 0 0 3px;
+    font-weight: bold;
+}
+
+.div-label-mail-visita {
+    margin-left: -37px;
+}
+
+.div-label-mail-ajuda {
+    margin-left: 0;
+}
+
+.div-label-mail-ajuda-pt {
+    margin-left: 7px;
+}
+
+/*pl */
+
+.div-label-mail-erro-pl {
+    margin-left: -9px;
+}
+
+.div-label-erro-pl {
+    margin-left: -120px;
+}
+
+.div-label-nick-msg-pl {
+    margin-left: -60px;
+}
+
+/*pl-f */
+
+/*es (ar) */
+
+.div-label-erro-esar {
+    margin-left: -95px;
+}
+
+/*es (ar) - f */
+
+/* al */
+
+.div-label-mail-ajuda-al {
+    margin-left: -15px;
+}
+
+.div-label-nick-ajuda-al {
+    margin-left: -85px;
+}
+
+.div-label-mail-erro-al {
+    margin-left: -26px;
+}
+
+.div-label-erro-al {
+    margin-left: -40px;
+}
+
+.div-label-mail-al {
+    margin-left: -5px;
+}
+
+.div-label-nick-al {
+    margin-left: -75px;
+}
+
+.div-label-mail-visita-al {
+    margin-left: -25px;
+}
+
+/* al-F */
+
+/* ct */
+
+.div-label-mail-ct {
+    margin-left: -28px;
+}
+
+.div-label-nick-ct {
+    margin-left: -95px;
+}
+
+.div-label-mail-visita-ct {
+    margin-left: -28px;
+}
+
+.div-label-mail-prijed-ct {
+    margin-left: -9px;
+}
+
+.div-label-mail-ajuda-ct {
+    margin-left: -25px;
+}
+
+.div-label-nick-ajuda-ct {
+    margin-left: -100px;
+}
+
+.div-label-mail-erro-ct {
+    margin-left: -15px;
+}
+
+.div-label-erro-ct {
+    margin-left: -95px;
+}
+
+/* ct-F */
+
+/* en */
+
+.div-label-mail-en {
+    margin-left: -25px;
+}
+
+.div-label-nick-en {
+    margin-left: -85px;
+}
+
+.div-label-nick-sug-en {
+    margin-left: -77px;
+}
+
+.div-label-mail-ajuda-en {
+    margin-left: -10px;
+}
+
+.div-label-nick-ajuda-en {
+    margin-left: -85px;
+}
+
+.div-label-erro-en {
+    margin-left: -85px;
+}
+
+/* en-F */
+
+/* es */
+
+.div-label-nick-es {
+    margin-left: -80px;
+}
+
+.div-label-nick-sug-es {
+    margin-left: -90px;
+}
+
+/* es-F */
+
+/* pl */
+
+.div-label-mail-pl {
+    margin-left: -5px;
+}
+
+.div-label-nick-pl {
+    margin-left: -95px;
+}
+
+.div-label-mail-visita-pl {
+    margin-left: -7px;
+}
+
+.div-label-nick-visita-pl {
+    margin-left: -80px;
+}
+
+.div-label-nick-sug-pl {
+    margin-left: -85px;
+}
+
+/* pl-F */
+
+/* pt */
+
+.div-label-mail-pt {
+    margin-left: 7px;
+}
+
+.div-label-nick-pt {
+    margin-left: -102px;
+}
+
+/* pt-F */
+
+/* ar */
+
+.div-label-mail-visita-ar {
+    margin-left: -55px;
+}
+
+.div-label-nick-ar {
+    margin-left: -160px;
+}
+
+.mensagem-ar {
+    margin-left: -135px;
+}
+
+.div-label-mail-ar {
+    margin-left: -28px;
+}
+
+.div-label-nick--ar {
+    margin-left: -115px;
+}
+
+.div-label-erro-ar {
+    margin-left: -150px;
+}
+
+/* ar-F */
+
+/* catalao */
+
+.div-label-mail-visita-cct {
+    margin-left: -5px;
+}
+
+.div-label-sug-ct {
+    margin-left: -57px;
+}
+
+.div-label-mail-msg-cct {
+    margin-left: -58px;
+}
+
+.div-label-smsg-ct {
+    margin-left: -85px;
+}
+
+.div-label-nick-ajuda-cct {
+    margin-left: -43px;
+}
+
+.div-label-mail-erro {
+    margin-left: -38px;
+}
+
+.div-label-nick-ajuda {
+    margin-left: -75px;
+}
+
+.div-label-erro {
+    margin-left: -110px;
+}
+
+.div-cmsg {
+    position: relative;
+    top: 40px;
+}
+
+.div-smsg {
+    position: relative;
+    top: 45px;
+}
+
+.visit, .btn-suge, .btn-msg {
+    background-color: #f6e9d8;
+    position: relative;
+    top: 60px;
+}
+
+.btn-msg {
+    background-color: orange;
+}
+
+.btn-msg:hover{
+    background-color: rgb(255, 222, 139);
+    color: black;
+}
+
+.desativado {
+    opacity: 30%;
+    cursor: no-drop;
+}
+
+.visit:hover {
+    background-color: #eac391;
+    font-weight: bold;
+    color: #000;
+    text-shadow: #eac3ff 0 0 2px;
+    filter: drop-shadow(#f6e9d8 0 0 8px);
+}
+
+.visita:hover {
+    background-color: white;
+    color: #000;
+}
+
+#div-voltar-visit {
+    top: 45px;
+}
+
+.btn-suge {
+    background-color: #000;
+    color: white;
+}
+
+.btn-suge:hover {
+    background-color: white;
+    color: #000;
+    filter: drop-shadow(#000 0 0 8px);
+}
+
+.me {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    filter: drop-shadow(0px 0px 5px #00aaff);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+    text-shadow: #00bbffaa 0 0 4px;
+}
+
+.me img {
+    transition: all .3s;
+}
+
+.me img:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.redes {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.idioma-div {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.vid2, .vid3, .vid4, .vid5 {
+    display: flex;
+    gap: 60px;
+    position: relative;
+}
+
+.langes {
+    position: relative;
+    top: -195px;
+    float: left;
+}
+
+.vid3 {
+    top: 20px;
+}
+
+.vid4 {
+    top: 40px;
+}
+
+.vid5 {
+    top: 60px;
+}
+
+.form-info-visita p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bloco-insta, .bloco-reddit, .bloco-tiktok, .bloco-youtube {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.bloco-insta {
+    text-shadow: #e04090 0 0 4px;
+}
+
+.bloco-reddit {
+    text-shadow: orangered 0 0 4px;
+}
+
+.bloco-tiktok {
+    text-shadow: purple 0 0 4px;
+}
+
+.bloco-youtube {
+    text-shadow: red 0 0 4px;
+}
+
+@media screen and (max-width: 1520px){
+    body {
+        background-size: 1580px;
+        background-position-y: 27%;
+        background-repeat: none;
+    }
+
+    .fivela {
+        position: relative;
+        top: 279px;
+        margin-left: 555px;
+        padding: 25px;
+        background-color: transparent;
+    }
+
+    .no-acesso {
+        gap: 200px;
+    }
+
+    .redes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    form, .formvisit, .form-server {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+}
+
+@media screen and (max-width: 1920px){
+    body {
+        background-size: 1580px;
+        background-position-y: 27%;
+        background-repeat: none;
+    }
+    .no-acesso {
+        gap: 200px;
+    }
+
+    .fivela {
+        position: relative;
+        top: 279px;
+        margin-left: 555px;
+        padding: 25px;
+        background-color: transparent;
+    }
+
+    .segura-idioma {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .ul-idioma {
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+    
+    .div-idioma {
+        display: flex;
+        gap: 10px;
+        justify-content:center;
+    }
+
+    .div-idioma a {
+        gap: 10px;
+    }
+
+    .form-info-visita-al {
+        height: 200px;
+    }
+
+    .form-info-priv-en {
+        height: 140px;
+    }
+
+    .form-info-like-en {
+        height: 220px;
+    }
+
+    .form-info-priv-al {
+        height: 190px;
+    }
+
+    .redes {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        top: 200px;
+    }
+
+    .div-voltar-foto-rd {
+        top: 285px;
+    }
+
+    .form-info-like-al {
+        height: 250px;
+    }
+
+    .form-info-like-pl {
+        height: 240px;
+    }
+
+    .form-info-like-es {
+        height: 220px;
+    }
+
+    .form-info-visita-es {
+        height: 190px;
+    }
+
+    .form-priv-pl {
+        height: 160px;
+    }
+
+    form, .formvisit, .form-server, .form-revisar-like {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    .form-erro {
+        height: 350px;
+    }
+
+    .form-info-like {
+        height: 140px;
+    }
+
+    .form-info-visita {
+        height: 180px;
+    }
+
+    .form-info-visita-pl {
+        height: 200px;
+    }
+}
+
+/* linha 244 - original*/
+
+@media screen and (max-width: 800px){
+    body {
+        background-image: url(img/fundocl.png);
+        background-size: 1000px;
+        background-position-y: 5px;
+        background-position-x: 50%;
+    }
+
+    .fivela {
+        position: relative;
+        top: 480px;
+        margin-left: 255px;
+        padding: 20px;
+        background-color: transparent;
+    }
+
+    .no-acesso {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    body {
+        background-image: url(img/fundocl.png);
+        background-size: 900px;
+        background-position-x: 50%;
+        background-position-y: 5px; 
+    }
+
+    .fivela {
+        position: relative;
+        top: 415px;
+        margin-left: 170px;
+        padding: 15px;
+        background-color: transparent;
+    }
+
+    .form-info-visita-pl {
+        height: 370px;
+    }
+
+    .segura-idioma {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ul-idioma {
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    
+    .div-idioma {
+        gap: 25px;
+    }
+
+    .idioma-div {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+
+    .form-info-like-al {
+        height: 500px;
+    }
+
+    .form-info-like-pl {
+        height: 447px;
+    }
+
+    .form-info-priv-al {
+        height: 390px;
+    }
+
+    .form-info-like-en {
+        height: 410px;
+    }
+
+    .form-info-priv-en {
+        height: 320px;
+    }
+
+    .form-info-visita-al {
+        height: 370px;
+    }
+
+    .form-priv-pl {
+        height: 370px;
+    }
+
+    .form-info-like-es {
+        height: 390px;
+    }
+
+    .form-info-visita-es {
+        height: 340px;
+    }
+
+    .no-acesso {
+        gap: 60px;
+    }
+
+    .redes {
+        flex-direction: column;
+        top: 15px;
+    }
+
+    .div-voltar-foto-rd {
+        top: 35px;
+    }
+
+    form, .formvisit, .form-server, .form-revisar-like {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .form-info-like {
+        height: 390px;
+    }
+
+    .form-info-visita {
+        height: 340px;
+    }
+}
+
+.embreve {
+    font-size: 45px;
+    font-family: pou;
+    color: white;
+    text-shadow: #000 2px 2px 3px, #000 -2px 2px 3px, #000 2px -2px 3px, #000 -2px -2px 3px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    transition: all .3s;
+    animation-name: vaievem;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+@keyframes vaievem {
+ 100%{
+    transform: scale(1.3);
+ }
+}
+
+.aguarde, .aguarde-visita, .aguarde-sug {
+    position: relative;
+    top: 25px;
+    color: yellow;
+    font-family: pou;
+    text-shadow: #000 2px 2px 3px, #000 -2px 2px 3px, #000 2px -2px 3px, #000 -2px -2px 3px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.aguarde-visita {
+    color: #fbe5c7;
+}
+
+.aguarde-sug {
+    color: white;
+}
+
+.final-obglk {
+    text-align: center;
+    position: relative;
+    top: 195px;
+}
+
+.btn-obglk {
+    background-color: #40e0d0aa;
+}
+
+.idioma, .idioma-d {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffffffd;
+    border: #000 3px solid;
+    border-radius: 30px;
+    width: 150px;
+    height: 120px;
+    margin-right: 4%;
+}
+
+.idioma-d {
+    opacity: 30%;
+    cursor: no-drop;
+}
+
+.bandeira, .idioma label, .idioma-d label {
+    position: relative;
+    top: 20px;
+}
+
+.ajd {
+    position: relative;
+    top: -200px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a label {
+    cursor: pointer;
+}
+
+.ajdbtn {
+    border: #000  2px solid;
+}
+
+.fivela:hover {
+    background-color: transparent;
+}

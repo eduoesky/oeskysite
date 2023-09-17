@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OesKy</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script defer src="../../pou/visita.js"></script>
+    <link rel="icon" type="image/x-icon" href="../../vis.ico">
+</head>
+<body>
+    <div class="divi"></div>
+    <header>
+        OesKy
+    </header>
+    <div class="divi"></div>
+    <div class="acesso-visita">
+        <a href="info-visit.html"><button>INFO</button></a>
+    </div>
+    <form class="formvisit" action="https://formsubmit.co/oeskky@Gmail.com" method="POST">
+        <div class="div-mail">
+            <div class="div-label-mail-visita-ar"><label for="mail">بريدك الإلكتروني (اختياري)</label></div>
+            <input class="nm" type="email" name="mail" placeholder="تواصل بالبريد الاكتروني">
+        </div>
+        <div class="div-nick">
+            <div class="div-label-nick--ar"><label for="nick">Pou اسم العائلة</label></div>
+            <input class="nm" type="name" name="nick" placeholder="لقب Pou الخاص بك" required>
+        </div>
+        <div class="div-cmsg">
+            <input type="checkbox" name, id="cmsg" class="mensagem">
+            <label for="cmsg">مع رسالة</label>
+            <div id="opcoes">
+                <label for="mensagens">حدد الرسالة</label>
+                <div>
+                    <select name="mensagens" id="mensagens">
+                        <option value="oi">مرحبًا، #! ^_^</option>
+                        <option value="tdbem">كيف حالك؟</option>
+                        <option value="tobem">أنا بخير شكرا!</option>
+                        <option value="amavel">محبوب جدا!</option>
+                        <option value="boabola">الكرة جيدة!</option>
+                        <option value="conq">أنجازات عظيمة!</option>
+                        <option value="casa">بيت جميل!</option>
+                        <option value="roupa">يا له من زي جميل!</option>
+                        <option value="gst">أنا معجب بك! ^_^</option>
+                        <option value="jardim">حديقة عظيمة!</option>
+                        <option value="carro">سيارة جميلة!</option>
+                        <option value="parabens">تهانينا!</option>
+                        <option value="obg">شكرًا!</option>
+                        <option value="obglike">شكرا لك على إعجابك بي!</option>
+                        <option value="amigos">لنكن أصدقاء!</option>
+                        <option value="jogarjuntos">لنلعب معا!</option>
+                        <option value="bdia">اتمنى لك يوم جيد!</option>
+                        <option value="bnoite">طاب مساؤك!</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="div-smsg">
+            <input type="checkbox" name, id="smsg" class="smsg">
+            <label for="semensagem">لا توجد رسالة</label>
+        </div>
+        <button class="visit" id="botao" type="submit" disabled>زرني 🏠</button>
+            <input type="hidden" name="_next" value="https://oesky.com/idiomas/al/visitaconcluida">
+            <input type="hidden" name="_captcha" value="false">
+    </form>
+    <div class="div-voltar-foto" id="div-voltar-visit">
+        <a href="pou.html">
+            <img src="../../img/voltar.png" height="180px">
+        </a>
+    </div>
+</body>
+</html>
